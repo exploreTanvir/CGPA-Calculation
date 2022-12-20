@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+input {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 21px;
+  background: #00d4df;
+}
+input:hover {
+  background: #9fffdc;
+  box-shadow: 4px -4px 12px 0px rgba(0, 255, 179, 0.82);
+}
+p:hover {
+  background: rgb(84, 22, 22) !important;
+  box-shadow: 4px -4px 12px 0px rgba(145, 65, 45, 0.82);
+}
+#result {
+  background: rgb(2, 61, 6) !important;
+}
+#result:hover {
+  background: rgb(5, 83, 10) !important;
+  box-shadow: 4px -4px 12px 0px rgba(24, 197, 84, 0.82);
+}
+p {
+  margin-top: 17px !important;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  background: rgb(60, 3, 3);
+  height: 5rem;
+  /* font-size: 20px; */
+  padding-top: 9px;
+  font-size: 2rem;
+}
+
+/* .placeholder-wave {
+  -webkit-mask-image: linear-gradient(
+    17deg,
+    #000 25%,
+    rgb(0 9 255 / 80%) 75%,
+    #000 25%
+  );
+  mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+  -webkit-mask-size: 200% 100%;
+  mask-size: 200% 100%;
+  -webkit-animation: placeholder-wave 3s linear infinite;
+  animation: placeholder-wave 3s linear infinite;
+} */
